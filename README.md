@@ -22,7 +22,7 @@ Our simple banking application will allow users to view accounts through GUI. In
 
 ### Previous Works
 
-We will be referencing a YT playlist by “Intro to Computer Science”, where he builds a simple banking application on NetBeans using Java Swing. 
+We will be referencing a YT playlist by “Intro to Computer Science”, where he builds a simple banking application on NetBeans using Java Swing.\ 
 https://www.youtube.com/watch?v=Qg_msJeezpA
 
 ### More Information
