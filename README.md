@@ -22,8 +22,9 @@ Our simple banking application will allow users to view accounts through GUI. In
 
 ### Previous Works
 
-We will be referencing a YT playlist by “Intro to Computer Science”, where he builds a simple banking application on NetBeans using Java Swing.\ 
-https://www.youtube.com/watch?v=Qg_msJeezpA
+We will be referencing a YT playlist by “Intro to Computer Science”, where he builds a simple banking application on NetBeans using Java Swing.
+
+Playlist: https://www.youtube.com/watch?v=Qg_msJeezpA
 
 ### More Information
 
@@ -32,11 +33,26 @@ Project will be monitored through GitHub. IDE’s are up to personal preference,
 
 ### Plan and Approach
 
-Each team member will be responsible for at least one portion of the project. 
-The project will be split into 4 major portions: Add account, delete account, withdraw, deposit. 
-Each issue will be worked on from a separate branch, and then pulled into main once complete. 
-By Oct 31 midpoint: GUI should be fully functional. Project should be able to allow users to add and remove accounts. 
-By project deadline: Users should then be able to withdraw and deposit from a selected account. 
+Each team member, per project guidelines, is expected to contribute to the programming aspect of the project. 
+
+Responsibilities will be specified after further discussion, and will be done a voluntary basis to ensure each member is assigned to a portion where they are most comfortable and best suited. 
+
+The project will be split into 4 major portions: Add/create account, delete account, withdraw, deposit. 
+
+* Add/create account
+    Users will be able to create a an account, with the option to create others. 
+* Delete account
+    Users will be able to remove any of their accounts. 
+* Withdraw
+    Users will be able to withdraw from a selected account. Overdraft fees will be enforced if withdrawal amount is greater than current amount in bank account. 
+* Deposit
+    Users will be able to deposit an amount into a selected bank account. Amount is limited to $5000 per each deposit.
+  
+Each issue will be worked on from a separate branch, and then pulled into the main branch once review is complete. 
+
+**Strong** By Oct 31 midpoint: __Strong__ GUI will be displayable and functional. Application will allow users to create and delete accounts. 
+
+**Strong** By project deadline: __Strong__ Users should then be able to withdraw and deposit from a selected account. Entire app should be fully functional. 
 
 
 
