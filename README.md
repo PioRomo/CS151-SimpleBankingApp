@@ -6,10 +6,10 @@ Simple Banking App for CS 151 - Team #1
 ### Team #1: Alvin Lee, Khushi Chandra, Pio Romo, Ronald Celino
 
 ## Table of Contents
-[Problem/Issue Statement](#Problem/Issue)
-[Functionality](#Functionality)
-[Previous Works](#Previous-Works)
-[More Information](#More-Information)
+[Problem/Issue Statement](#Problem/Issue)\
+[Functionality](#Functionality)\
+[Previous Works](#Previous-Works)\
+[More Information](#More-Information)\
 [Plan and Approach](#Plan-and-Approach)
 
 ### Problem/Issue:
