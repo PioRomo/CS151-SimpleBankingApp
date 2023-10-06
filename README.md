@@ -39,14 +39,14 @@ Responsibilities will be specified after further discussion, and will be done a 
 
 The project will be split into 4 major portions: Add/create account, delete account, withdraw, deposit. 
 
-* Add/create account
-    Users will be able to create a an account, with the option to create others. 
-* Delete account
-    Users will be able to remove any of their accounts. 
-* Withdraw
-    Users will be able to withdraw from a selected account. Overdraft fees will be enforced if withdrawal amount is greater than current amount in bank account. 
-* Deposit
-    Users will be able to deposit an amount into a selected bank account. Amount is limited to $5000 per each deposit.
+1. Add/create account
+    * Users will be able to create a an account, with the option to create others.
+2. Delete account
+    * Users will be able to remove any of their accounts.
+3. Withdraw
+    * Users will be able to withdraw from a selected account. Overdraft fees will be enforced if withdrawal amount is greater than current amount in bank account.
+4. Deposit
+    * Users will be able to deposit an amount into a selected bank account. Amount is limited to $5000 per each deposit.
   
 Each issue will be worked on from a separate branch, and then pulled into the main branch once review is complete. 
 
