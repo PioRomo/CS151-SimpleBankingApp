@@ -50,9 +50,9 @@ The project will be split into 4 major portions: Add/create account, delete acco
   
 Each issue will be worked on from a separate branch, and then pulled into the main branch once review is complete. 
 
-**Strong** By Oct 31 midpoint: __Strong__ GUI will be displayable and functional. Application will allow users to create and delete accounts. 
+**By Oct 31 midpoint:** GUI will be displayable and functional. Application will allow users to create and delete accounts. 
 
-**Strong** By project deadline: __Strong__ Users should then be able to withdraw and deposit from a selected account. Entire app should be fully functional. 
+**By project deadline:** Users should then be able to withdraw and deposit from a selected account. Entire app should be fully functional. 
 
 
 
