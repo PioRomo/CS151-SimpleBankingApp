@@ -47,12 +47,14 @@ The project will be split into 4 major portions: Add/create account, delete acco
     * Users will be able to withdraw from a selected account. Overdraft fees will be enforced if withdrawal amount is greater than current amount in bank account.
 4. Deposit
     * Users will be able to deposit an amount into a selected bank account. Amount is limited to $5000 per each deposit.
-  
+5. UML diagram
+    * Diagram showing representing the architecture of the project.
+    * 
 Each issue will be worked on from a separate branch, and then pulled into the main branch once review is complete. 
 
 **By Oct 31 midpoint:** GUI will be displayable and functional. Application will allow users to create and delete accounts. 
 
-**By project deadline:** Users should then be able to withdraw and deposit from a selected account. Entire app should be fully functional. 
+**By project deadline:** Users should then be able to withdraw and deposit from a selected account. Entire app should be fully functional. UML should be complete. 
 
 
 
