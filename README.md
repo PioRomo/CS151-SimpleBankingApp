@@ -18,7 +18,7 @@ Users are unable to view and modify bank accounts online.
 
 ### Functionality:
 
-Our simple banking application will allow users to view accounts through GUI. In addition, users can view and remove accounts, as well as deposit and withdraw. 
+Our simple banking application will allow users to view accounts through CLI. In addition, users can view and remove accounts, as well as deposit and withdraw. 
 
 ### Previous Works
 
@@ -49,10 +49,10 @@ The project will be split into 4 major portions: Add/create account, delete acco
     * Users will be able to deposit an amount into a selected bank account. Amount is limited to $5000 per each deposit.
 5. UML diagram
     * Diagram showing representing the architecture of the project.
-    * 
+   
 Each issue will be worked on from a separate branch, and then pulled into the main branch once review is complete. 
 
-**By Oct 31 midpoint:** GUI will be displayable and functional. Application will allow users to create and delete accounts. 
+**By Oct 31 midpoint:** Application will allow users to create and delete accounts. 
 
 **By project deadline:** Users should then be able to withdraw and deposit from a selected account. Entire app should be fully functional. UML should be complete. 
 
