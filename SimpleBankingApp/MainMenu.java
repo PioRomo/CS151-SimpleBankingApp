@@ -9,7 +9,7 @@ public class MainMenu implements ActionListener {
   public static int idCounter = 0;
   private JFrame mainFrame;
   private JLabel manageLabel; 
-  private static JTable accountTable; 
+  public static JTable accountTable; 
  
   private int balance = 0;
 
@@ -31,9 +31,7 @@ public class MainMenu implements ActionListener {
     model.addColumn("ID");
     model.addColumn("Type");
     model.addColumn("Balance");
-
-    accountTable.getColumn("Name").setPreferredWidth(150);
-	  
+   
     //Setting up the buttons
     manageLabel = new JLabel("Manage Accounts");
     JButton addAccountButton = new JButton("Add");
@@ -77,7 +75,7 @@ public class MainMenu implements ActionListener {
     	new AddAccount();
     } 
     else if (e.getActionCommand().equals("Delete")) {
-    	System.out.println("Delete Account here!");
+    	new DeleteAccount();
     }
     else if (e.getActionCommand().equals("Deposit")) {
     	System.out.println("Deposit here! ");
