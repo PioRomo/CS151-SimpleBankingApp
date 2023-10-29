@@ -78,21 +78,28 @@ public class AddAccount implements ActionListener {
 
 	}
 	    
-	    
+	 // When add account button is pressed   
 	 @Override
 	  public void actionPerformed(ActionEvent e) {
+		// set error labels to not visible
 		 nameEmptyLabel.setVisible(false);
 		 nameCharLimLabel.setVisible(false);
+
+		// get user input from text field and dropdown
 		 name = nameText.getText();
 		 type = (String)typeDropdown.getSelectedItem();
 		 
 		 if (e.getActionCommand().equals("Add Account")) {
+			 // if name field is blank, return error message
 			 if (name.length() == 0) {
 				 nameEmptyLabel.setVisible(true);
 			 }
+		         // if name is over 20 chars, return error message
 			 else if (name.length() > charLimit) {
 				 nameCharLimLabel.setVisible(true);
 			 }
+			 // valid inputs, set up user id, put all account info into array row and add it to main menu jtable
+			 // increment id counter and close this frame 	
 			 else {
 				 String idFormat = String.format("%04d", MainMenu.idCounter);
 				 String data[] = {name, idFormat, type, startBalance};
