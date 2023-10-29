@@ -6,9 +6,10 @@ import javax.swing.table.DefaultTableModel;
 
 public class MainMenu implements ActionListener {
   //Initialize our variables here
+  public static int idCounter = 0;
   private JFrame mainFrame;
   private JLabel manageLabel; 
-  private JTable accountTable; 
+  private static JTable accountTable; 
  
   private int balance = 0;
 
@@ -61,12 +62,17 @@ public class MainMenu implements ActionListener {
     mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 
+  // Add account row to main menu's table
+  public static void AddAccountToJTable(Object[] accRow) {
+	  DefaultTableModel model = (DefaultTableModel)accountTable.getModel();
+	  model.addRow(accRow);
+  }
+
   @Override
   public void actionPerformed(ActionEvent e) {
     //int amount = Integer.parseInt(inputField.getText());
     if (e.getActionCommand().equals("Add")) {
-    	
-    	System.out.println("Add account here! ");
+    	new AddAccount();
     } 
     else if (e.getActionCommand().equals("Delete")) {
     	System.out.println("Delete Account here!");
