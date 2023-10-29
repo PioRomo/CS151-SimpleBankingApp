@@ -32,6 +32,8 @@ public class MainMenu implements ActionListener {
     model.addColumn("Type");
     model.addColumn("Balance");
    
+    accountTable.getColumn("Name").setPreferredWidth(150);
+    
     //Setting up the buttons
     manageLabel = new JLabel("Manage Accounts");
     JButton addAccountButton = new JButton("Add");
