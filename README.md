@@ -80,6 +80,11 @@ With our application, users can do so much more. Users can create and delete acc
 or deposit from their accounts. Additionally, users can also use our built-in CD calculator to view the
 growth of a CD using custom inputs. 
 
+#### Brief Description
+
+The Simple Banking App allows users to create and delete banking accounts, both checking and savings. These accounts are stored on a table, and
+users can also withdraw and deposit from select accounts. A CD calculator also allows users to calculate the growth of a CD with custom variables. 
+
 ### Individual Contributions
 
 * Pio Romo:
