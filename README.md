@@ -15,7 +15,7 @@ Simple Banking App for CS 151 - Team #1
 [Examples](#Examples)\
 [UML Diagram](#UML-Diagram)\
 [Closing Thoughts](#Closing-Thoughts)\
-[Individual Contributions](#Individual-Contributions)\
+[Individual Contributions](#Individual-Contributions)
 
 ### Problem/Issue:
 
