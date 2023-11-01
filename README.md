@@ -11,6 +11,11 @@ Simple Banking App for CS 151 - Team #1
 [Previous Works](#Previous-Works)\
 [More Information](#More-Information)\
 [Plan and Approach](#Plan-and-Approach)
+[Setting Up the Project](#Setting-Up-the-Project)\
+[Examples](#Examples)\
+[UML Diagram](#UML-Diagram)\
+[Closing Thoughts](#Closing-Thoughts)\
+[Individual Contributions](#Individual-Contributions)\
 
 ### Problem/Issue:
 
@@ -55,6 +60,42 @@ Each issue will be worked on from a separate branch, and then pulled into the ma
 **By Oct 31 midpoint:** Application will allow users to create and delete accounts. 
 
 **By project deadline:** Users should then be able to withdraw and deposit from a selected account. Entire app should be fully functional. UML should be complete. 
+
+### Setting Up the Project
+
+Setting up the project is a pretty easy process. All that's needed is to clone the git repository to your computer, then open it up in an IDE of your choosing. 
+1. Open a terminal window on your machine, and navigate to where you want to store the repository.
+2. Run this command: `git clone https://github.com/PioRomo/CS151-SimpleBankingApp`
+3. The repo is now in your computer. You can now open the project in your IDE.
+4. Once the project is open, you can go ahead and run it. A window will pop-up. Resize the window, and you will be able to use the app.
+   
+### Examples
+### UML Diagram
+### Closing Thoughts
+
+#### How did we solve our initial problem? 
+
+The problem we set out to solve was that users were unable to view and modify their bank accounts online. 
+With our application, users can do so much more. Users can create and delete accounts. Users can withdraw 
+or deposit from their accounts. Additionally, users can also use our built-in CD calculator to view the
+growth of a CD using custom inputs. 
+
+### Individual Contributions
+
+* Pio Romo:
+   * Created the MainMenu page, which included the addition of buttons and the table.
+   * Implemented the CD Calculator page.
+   * Created the GitHub repo, including starting files and readme
+   * Created report and presentation
+* Alvin Lee:
+   * Implemented Deposit functionality
+   * Implemented Withdraw functionality
+* Ronald Celino:
+   * Implemented Create Account functionality
+   * Worked on UML Diagram
+* Khushi Chandra: 
+   * Implemented Delete Account functionality
+   * Worked on UML Diagram
 
 
 
