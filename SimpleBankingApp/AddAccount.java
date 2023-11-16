@@ -71,7 +71,6 @@ public class AddAccount implements ActionListener {
 	    mainFrame.add(typeLabel);
 	    mainFrame.add(typeDropdown);
 	    mainFrame.add(addAccountButton);
-	 
 	    
 	    //When we close the window, it won't close the app
 	    mainFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);

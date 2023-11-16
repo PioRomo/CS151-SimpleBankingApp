@@ -9,7 +9,7 @@ public class MainMenu implements ActionListener {
   public static int idCounter = 0;
   private JFrame mainFrame;
   private JLabel manageLabel; 
-  public static JTable accountTable; 
+  protected static JTable accountTable; 
  
   private int balance = 0;
 
@@ -19,7 +19,7 @@ public class MainMenu implements ActionListener {
 	  
 	//Create and initialize the mainframe
     mainFrame = new JFrame("Simple Bank Application");
-    mainFrame.setVisible(true);
+    // mainFrame.setVisible(true);
     mainFrame.setSize(700, 700);
     mainFrame.setFont(new Font("Arial",Font.BOLD,18));
     mainFrame.setLayout(new FlowLayout());
@@ -61,6 +61,7 @@ public class MainMenu implements ActionListener {
     withdrawButton.addActionListener(this);
     CDCalcButton.addActionListener(this);
 
+    mainFrame.setVisible(true); // Components won't show up if setVisible method is declared earlier.
     mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 
@@ -80,10 +81,10 @@ public class MainMenu implements ActionListener {
     	new DeleteAccount();
     }
     else if (e.getActionCommand().equals("Deposit")) {
-    	System.out.println("Deposit here! ");
+      new DepositBalance();
     }
     else if (e.getActionCommand().equals("Withdraw")) {
-    	System.out.println("Withdraw here!");
+    	new WithdrawBalance();
     }
     else if (e.getActionCommand().equals("CD Calculator")) {
     	new CDCalculator();
