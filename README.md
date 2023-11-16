@@ -105,10 +105,10 @@ users can also withdraw and deposit from select accounts. A CD calculator also a
    * Implemented Withdraw functionality
 * Ronald Celino:
    * Implemented Create Account functionality
-   * Worked on UML Diagram
+   * Worked on UML State and Sequence Diagrams
 * Khushi Chandra: 
    * Implemented Delete Account functionality
-   * Worked on UML Diagram
+   * Worked on UML Class Diagram
 
 
 
