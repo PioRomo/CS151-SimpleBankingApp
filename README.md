@@ -71,6 +71,14 @@ Setting up the project is a pretty easy process. All that's needed is to clone t
    
 ### Examples
 ### UML Diagram
+
+Sequence Diagram:
+![BankApplicationSequenceDiagramFinal drawio](https://github.com/PioRomo/CS151-SimpleBankingApp/assets/131488639/26e47bcc-a9b4-401d-a6fd-788d201f3050)
+
+State Diagram:
+![BankApplicationStateDiagramFinal drawio](https://github.com/PioRomo/CS151-SimpleBankingApp/assets/131488639/dce58515-2b3d-482f-b502-07b53b04fe16)
+
+
 ### Closing Thoughts
 
 #### How did we solve our initial problem? 
