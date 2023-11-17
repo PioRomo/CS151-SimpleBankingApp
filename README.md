@@ -78,6 +78,9 @@ Sequence Diagram:
 State Diagram:
 ![BankApplicationStateDiagramFinal drawio](https://github.com/PioRomo/CS151-SimpleBankingApp/assets/131488639/dce58515-2b3d-482f-b502-07b53b04fe16)
 
+Class Diagram:
+![bankApplicationClassDiagramFinal](https://github.com/PioRomo/CS151-SimpleBankingApp/assets/113278698/fbc5c8bb-28c2-42a6-9233-3a38660171ea)
+
 
 ### Closing Thoughts
 
