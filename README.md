@@ -98,18 +98,18 @@ users can also withdraw and deposit from select accounts. A CD calculator also a
 
 ### Individual Contributions
 
-* Pio Romo:
+* Pio Romo (25%):
    * Created the MainMenu page, which included the addition of buttons and the table.
    * Implemented the CD Calculator page.
    * Created the GitHub repo, including starting files and readme
    * Created report and presentation
-* Alvin Lee:
+* Alvin Lee (25%):
    * Implemented Deposit functionality
    * Implemented Withdraw functionality
-* Ronald Celino:
+* Ronald Celino (25%):
    * Implemented Create Account functionality
    * Worked on UML State and Sequence Diagrams
-* Khushi Chandra: 
+* Khushi Chandra (25%): 
    * Implemented Delete Account functionality
    * Worked on UML Class Diagram
 
