@@ -2,6 +2,7 @@
 Simple Banking App for CS 151 - Team #1
 
 # Simple Banking Application
+Link to Presentation: https://docs.google.com/presentation/d/1HRAkYBFBVNxqEq09VQVvOXbIAIFk4slBBR3n6fugpAs/edit#slide=id.p
 
 ### Team #1: Alvin Lee, Khushi Chandra, Pio Romo, Ronald Celino
 
