@@ -71,6 +71,11 @@ Setting up the project is a pretty easy process. All that's needed is to clone t
 4. Once the project is open, you can go ahead and run it. A window will pop-up. Resize the window, and you will be able to use the app.
    
 ### Examples
+
+### Project Snapshot
+
+![ProjectSnapshot](https://github.com/PioRomo/CS151-SimpleBankingApp/assets/116417667/2b2b0c3b-31cb-46c4-8c7c-edd27e7ecb97)
+
 ### UML Diagram
 
 Sequence Diagram:
