@@ -72,7 +72,7 @@ Setting up the project is a pretty easy process. All that's needed is to clone t
    
 ### Examples
 
-### Project Snapshot
+### Project Running
 
 ![ProjectSnapshot](https://github.com/PioRomo/CS151-SimpleBankingApp/assets/116417667/2b2b0c3b-31cb-46c4-8c7c-edd27e7ecb97)
 
